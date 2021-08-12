@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style_user.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div id="menu" style="margin-top: 2vh;">
+            <ul>
+                <li name="sub"><a href="">محصولات</a>
+                    <div id="zir_menu">
+                        <ul>
+                            <li><a>atmega8</a></li>
+                            <li><a>atmega328</a></li>
+                            <li><a>atmega16</a></li>
+                            <li><a>atmega32</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">درباره ما</a></li>
+                <li><a href="">ارتباط با ما</a></li>
+                <a href="./index.html">
+                    <li style="float: left;margin-left: 1%;">
+                        
+                        <img src="./assets/img/600px-RPC-JP_Logo.png" alt="">
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+    </header>
+
+    <!-- ******************************************************************************************************** -->
+
+    <nav>
+
+        <div class="m_box" id="user_form" style="background-color: #5d4257;background-image: linear-gradient(315deg, #5d4257 0%, #a5c7b7 74%);padding: 20vh 0vh 20vh 0vh;margin-bottom: 5vh;">
+            
+            <h1>تکمیل اطلاعات حساب کاربری</h1>
+
+            <form action="">
+
+                <label for="namee">نام</label>
+                <input type="text" id="namee">
+
+                <label for="family">نام خانوادگی</label>
+                <input type="text" id="family">
+
+                <label for="passs">رمز عبور</label>
+                <input type="password" id="passs">
+
+                <label for="tava">تاریخ تولد</label>
+                <input type="date" id="tava">
+
+                <label for="tavasa">ساعت تولد</label>
+                <input type="time" id="tavasa">
+
+                <label for="em">ایمیل</label>
+                <input type="email" id="em">
+
+                <label for="mkar">اسکن کارت ملی</label>
+                <input type="file" id="mkar">
+
+                <label for="mcode">کدملی</label>
+                <input type="number" id="mcode">
+
+                <label for="ttt">شماره تلفن</label>
+                <input type="tel" id="ttt">
+
+                <label for="uuu">آدرس سایت</label>
+                <input type="url" id="uuu">
+
+                <label for="jens">جنسیت</label>
+                
+                <div id="jens">
+                    <label for="jen-1">مرد</label>
+                    <input type="radio" value="مرد" id="jen" name="je1" >
+                </div>
+                <div>
+                    <label for="jen-2">زن</label>
+                    <input type="radio" value="زن" id="jen" name="je1" >
+                </div>
+
+                <input type="submit" value="ثبت">
+
+            </form>
+
+        </div>
+
+    </nav>
+
+</body>
+</html>

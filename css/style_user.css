@@ -1,0 +1,38 @@
+
+
+#user_form form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+
+}
+
+#user_form form input{
+    margin: 2vh 0;
+    width: 50%;
+    height: 5vh;
+    border-radius: 25px;
+}
+
+#user_form h1{
+    margin: 0 0 5vh 0;
+    text-align: center;
+}
+
+#user_form label{
+    font-size: 25px;
+}
+
+#user_form input[type="submit"]{
+    background-color: chartreuse;
+}
+
+#user_form form input[type="file"]{
+    border-radius: 0;
+}
+
+#user_form form label{
+    color: #5a12e6;
+}

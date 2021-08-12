@@ -1,0 +1,343 @@
+/* start top menu  */
+#top{
+    display: block;
+    height: auto;
+    margin: 1vh 0;
+}
+
+#top ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+#top ul li {
+    float: right;
+    margin-right: 1%;
+}
+
+#top ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: #2b2a41;
+    font-size: 11px;
+}
+
+#top ul li a:hover{
+    color: #daa520;
+}
+
+
+/* end top menu  */
+/****************************************************************************************/
+/* start menu  */
+
+#menu {
+    display: block;
+    margin: 0 0.8%;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 12px 0px;
+    background-color: #690EE6;
+    border-radius: 20px;
+    cursor: grab;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    cursor: grab;
+
+}
+
+#menu ul li img{
+    width: 45px;
+    height: 45px;
+}
+
+#menu ul li {
+    float: right;
+    margin-right: 3%;
+    cursor: grab;
+
+}
+#menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: grab;
+
+}
+#menu ul li a:hover {
+    background-color: #444;
+    cursor: grab;
+}
+
+#login a:hover{
+    background-color: #444;
+    border-radius: 0px 20px 20px 0px;
+    cursor: grab;
+}
+
+#menu li[name="sub"]:hover #zir_menu{
+    display: block;
+}
+
+
+/* end menu  */
+/****************************************************************************************/
+/* zir menu start */
+
+
+#zir_menu{
+    display: none;
+    position: absolute;
+}
+
+#zir_menu ul{
+	width: 120px;
+    border-radius: 0px 0px 20px 20px;    
+}
+
+
+
+#zir_menu ul li a{
+    display: block;
+	width: 120px;
+	background-color: #690EE6 ;
+	color: white;
+	padding: 10px 15px;
+}
+
+#zir_menu ul li a:hover{
+    background-color: #444;
+}
+
+/* zir menu end */
+/****************************************************************************************/
+/* magz start */
+
+.mag{
+    
+    box-shadow: 3px 4px 20px 0px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-top: 10vh;
+    width: 20%;
+    background-color: gold;
+    
+}
+
+
+
+.mag img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.mag a{
+    color: blue;
+    text-decoration: none;
+
+}
+
+/* magz end */
+/****************************************************************************************/
+/* foot start */
+
+#foot{
+    width: 100%;
+    height: auto;
+    background-color: #282A35;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mes{
+    flex-grow: 1;
+    margin-left: 4%;
+    order: 1;
+}
+
+#mes img{
+    -webkit-filter: opacity(60%);
+    width: 12%;
+}
+
+#mes img:hover{
+    -webkit-filter: opacity(100%);
+}
+
+#toz{
+    flex-grow: 2;
+    order: 3;
+    color: white;
+    text-align: center;
+    padding: 2vh 2%;
+    font-size: 21px;
+    margin: 2vh 3% 2vh 0%;
+    width: 100%;
+    
+}
+
+#nios{
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 1;
+    order: 2;
+    color: white;
+    margin-right: 10%;
+    /* padding: 2vh 10%;
+    margin-top: 10vh; */
+    
+    
+}
+
+*{
+    margin: 0;
+}
+
+
+
+#nios input[type="email"]{
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 3vh;
+}
+
+/* foot end */
+/****************************************************************************************/
+/* start media query */
+
+@media only screen and (max-width: 1000px) {
+    .mag{
+        font-size: 10px;
+    }
+    #toz{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mag{
+        font-size: 8px;
+    }
+    #toz{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .mag{
+        font-size: 8px;
+    }
+    #toz{
+        font-size: 5px;
+    }
+    #info{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 449px) {
+    .mag{
+        font-size: 8px;
+    }
+    #toz{
+        font-size: 4px;
+    }
+    #info{
+        display: none;
+    }
+    #conect{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .mag{
+        font-size: 5px;
+    }
+}
+/* end media qury */
+/****************************************************************************************/
+/* more */
+
+#img_m{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    
+}
+
+#img_m img{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 1px 3px 20px 0px;
+    display: block;
+    width: 98%;
+}
+
+body{
+    background-color: rgb(180, 168, 168);
+}
+
+.m_box{
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #4a8eff; */
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    margin-top: 5vh;
+    border-radius: 20px;    
+    box-shadow: 3px 4px 20px 0px;
+}
+
+#tbl{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1%;
+    border: 5px lightblue solid;
+    border-collapse: collapse;
+}
+
+#tbl td,#tbl th{
+    border: 5px lightblue solid;
+    height: 5vh;
+}
+
+#tb{
+    display: block;
+    
+}
+
+#tbl tr:nth-child(even){
+    background-color: #4a8eff;
+}
+
+#tbl tr:nth-child(odd){
+    background-color: greenyellow;
+}
+
+#tbl tr:nth-child(even):hover{
+    background-color: #0062ff;
+}
+
+#tbl tr:nth-child(odd):hover{
+    background-color: rgb(0, 250, 0);
+}
